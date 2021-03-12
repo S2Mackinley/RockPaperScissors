@@ -72,7 +72,7 @@ const game = () => {
           updateScore();
           return;
         } else {
-          winner.textContent = "Really you thought you'd win with a rock?";
+          winner.textContent = "Rock beats Scissors fool";
           cScore++;
           updateScore();
           return;
@@ -95,7 +95,7 @@ const game = () => {
       //Check for Scissors
       if (playerChoice === "scissors") {
         if (computerChoice === "rock") {
-          winner.textContent = "take this rock ya noob";
+          winner.textContent = "rock beats scissors";
           cScore++;
           updateScore();
           return;
