@@ -72,7 +72,7 @@ const game = () => {
           updateScore();
           return;
         } else {
-          winner.textContent = "Dang you broke my scissors";
+          winner.textContent = "Dang you broke my hand";
           cScore++;
           updateScore();
           return;
