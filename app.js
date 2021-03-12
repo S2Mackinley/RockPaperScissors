@@ -81,7 +81,7 @@ const game = () => {
       //Check for Paper
       if (playerChoice === "paper") {
         if (computerChoice === "scissors") {
-          winner.textContent = "I knew youd pick paper. all you humans are the same";
+          winner.textContent = "I knew youd pick paper.";
           cScore++;
           updateScore();
           return;
